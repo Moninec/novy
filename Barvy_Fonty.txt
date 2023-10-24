@@ -1,0 +1,2 @@
+Fonty: Lato, Gabarito
+Barvy: #845EC2, #4B4453, #B0A8B9
