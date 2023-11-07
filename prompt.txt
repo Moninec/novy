@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rrrrrr</title>
+</head>
+<body>
+
+  <ul id="seznam">
+  Prezenčka:
+  </ul>
+  
+
+  <script>
+
+    let odpoved = prompt("Kolik je přítomno kamenů?");
+
+    let seznam = document.getElementById("seznam");
+
+    for (let i = 0; i < odpoved; i++){
+      let odrazka = document.createElement("li");
+      odrazka.innerText = "Kámen";
+      seznam.appendChild(odrazka);
+    }
+  </script>
+</body>
+</html>
